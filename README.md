@@ -12,7 +12,7 @@ Just simply upload **`models/EyeCataractDetectModel.pth`** in colab or local dev
 
 ### Confusion Matrix
 
-|          | Normal | Cataract |
+|  True\Predicted  | Normal | Cataract |
 |----------|-------------|-------------|
 | Normal |     81      |     16      |
 | Cataract |     1     |     120     |
