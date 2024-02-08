@@ -2,8 +2,8 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Cataract-Normal-Eye-Classification/blob/main/Eye%20Disease%20Detection.ipynb) 
 <br>
-_The pre-trained model is available in the **`model/`** directory.<br>
-Just simply upload **`model/EyeCataractDetectModel.pth`** in colab or local device_
+_The pre-trained model is available in the **`models/** directory.<br>
+Just simply upload **`models/EyeCataractDetectModel.pth`** in colab or local device_
 
 ### Loss & Accuracy Data
 |      | Train Loss | Train Acc | Test Loss | Test Acc |
