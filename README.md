@@ -3,7 +3,7 @@
 #### Cataract-Normal Eye Classification
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Ocular-Eye-Disease-Classification/blob/main/Eye%20Disease%20Detection.ipynb)
 
-#### Multiple Ocular Eye Disease Clasification
+#### Multiple Ocular Eye Disease Classification
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Ocular-Eye-Disease-Classification/blob/main/Multiple_Eye_Disease_Detection.ipynb)
 
 ## Usage
@@ -21,8 +21,9 @@ To run the demo:
     ```
 
 <br>
-_The pre-trained models are available on **`models/`** directory.<br>
-Just simply load **`models/MultipleEyeDiseaseDetectModel.pth`** in colab or local device_
+
+<i>The pre-trained models are available on `models/` directory.</i><br>
+<i>Just simply load `models/MultipleEyeDiseaseDetectModel.pth` in colab or local device</i>
 
 
 ---
