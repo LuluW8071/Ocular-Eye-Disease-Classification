@@ -1,26 +1,28 @@
-# Cataract-Normal Eye Classification
+# Ocular-Eye-Disease-Classification 
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Cataract-Normal-Eye-Classification/blob/main/Eye%20Disease%20Detection.ipynb) 
+#### Cataract-Normal Eye Classification
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Ocular-Eye-Disease-Classification/blob/main/Eye%20Disease%20Detection.ipynb)
+
+#### Multiple Ocular Eye Disease Clasification
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LuluW8071/Ocular-Eye-Disease-Classification/blob/main/Multiple_Eye_Disease_Detection.ipynb)
+
+## Usage
+To run the demo:
+
+- **Install Dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+- **Run `main.py` for Demo**:
+
+    ```bash
+    streamlit run .\demo\main.py
+    ```
+
 <br>
-_The pre-trained model is available in the **`models/`** directory.<br>
-Just simply upload **`models/EyeCataractDetectModel.pth`** in colab or local device_
-
-### Loss & Accuracy Data
-|      | Train Loss | Train Acc | Test Loss | Test Acc |
-|------|------------|-----------|-----------|----------|
-| Data |   0.0149   |  99.67%   |   0.1184  |  95.54%  |
-
-### Confusion Matrix
-
-|  True\Predicted  | Normal | Cataract |
-|----------|-------------|-------------|
-| Normal |     81      |     16      |
-| Cataract |     1     |     120     |
-
-### Loss & Accuracy Curve
-![image](https://github.com/LuluW8071/Cataract-Normal-Eye-Classification/assets/107304848/4023d18e-f185-45e0-a684-089de610e3bd)
-![image](https://github.com/LuluW8071/Cataract-Normal-Eye-Classification/assets/107304848/bfbae08a-f2e0-4e48-a04e-bde0eb1816d8)
-
+_The pre-trained models are available on **`models/`** directory.<br>
+Just simply load **`models/MultipleEyeDiseaseDetectModel.pth`** in colab or local device_
 
 
 ---
