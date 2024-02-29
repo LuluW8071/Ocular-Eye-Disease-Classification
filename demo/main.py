@@ -17,7 +17,7 @@ def main():
     MODEL_SAVE_PATH = "models/MultipleEyeDiseaseDetectModel.pth"
     model_info = torch.load(MODEL_SAVE_PATH, map_location=torch.device('cpu'))
 
-    # Instantiate IntentModelClassifier
+    # Instantiate Model
     model = ImprovedTinyVGGModel(
         input_shape=3,
         hidden_units=48,
@@ -56,7 +56,6 @@ def main():
             unsafe_allow_html=True
         )
 
-        # Create a two-column layout
         col1, col2 = st.columns([1, 3])
 
         # Display prediction label and confidence rate on the left column
